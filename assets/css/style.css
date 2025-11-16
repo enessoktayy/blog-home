@@ -9,6 +9,10 @@ body{
     
 }
 
+.hero img{
+    margin: auto;
+}
+
 img{
     display: block;
 }
