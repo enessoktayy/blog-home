@@ -47,7 +47,7 @@ header{
 
 .container{
     width: 1110px;
-    
+    margin: auto;
 }
 
 .header-right{
@@ -228,4 +228,55 @@ header{
 
 .incredible img{
     margin-bottom: 11px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 72px;
+}
+
+span{
+    font-weight: bold;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.footer-links p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+footer{
+    border-top: solid 1px #EAEAEA;
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 40px;
+    align-items: center;
+    margin: auto;
+}
+
+.social-links{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-border{
+    border-top: solid 1px #EAEAEA;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
